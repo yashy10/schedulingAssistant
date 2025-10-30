@@ -1,0 +1,17 @@
+# Core Dependencies
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langgraph>=0.0.20
+python-dotenv>=1.0.0
+openai>=1.12.0
+
+# Voice I/O Features
+SpeechRecognition>=3.10.0
+pyttsx3>=2.90
+PyAudio>=0.2.13
+
+# Google Calendar Integration
+google-auth>=2.23.0
+google-auth-oauthlib>=1.1.0
+google-auth-httplib2>=0.1.1
+google-api-python-client>=2.100.0

@@ -1,0 +1,455 @@
+{
+  "conversations": [
+    {
+      "timestamp": "2025-10-30T11:34:24.313924",
+      "user": "schedule a meeting with raj friday",
+      "assistant": "\u2705 Meeting confirmed for Friday, October 31 at 12:30 PM with raj (30 minutes).",
+      "intent": "schedule_meeting",
+      "metadata": {
+        "participants": [
+          "raj"
+        ],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    },
+    {
+      "timestamp": "2025-10-30T11:34:36.316864",
+      "user": "cancel meeting",
+      "assistant": "You currently have no scheduled meetings.",
+      "intent": "cancel_meeting",
+      "metadata": {
+        "participants": [
+          "raj"
+        ],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    },
+    {
+      "timestamp": "2025-10-30T11:46:52.467337",
+      "user": "Schedule a meeting with raj tomorrow",
+      "assistant": "\u2705 Meeting confirmed for Friday, October 31 at 01:00 PM with raj (30 minutes).",
+      "intent": "schedule_meeting",
+      "metadata": {
+        "participants": [
+          "raj"
+        ],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    },
+    {
+      "timestamp": "2025-10-30T11:47:04.733062",
+      "user": "list my meetings",
+      "assistant": "\ud83d\udcc5 Your scheduled meetings:\n\n1. [Wednesday, October 29, 2025] 12:00 PM - 12:30 PM \u2014 Meeting with me, raj (Meeting) \ud83d\udcbe\n2. [Wednesday, October 29, 2025] 01:00 PM - 01:30 PM \u2014 Meeting with raj (Zoom) \ud83d\udcbe\n3. [Thursday, October 30, 2025] 11:00 AM - 11:30 AM \u2014 Meeting with Alex (Meeting) \ud83d\udcbe\n4. [Thursday, October 30, 2025] 12:00 PM - 12:30 PM \u2014 Meeting with me, raj (Meeting) \ud83d\udcbe\n5. [Thursday, October 30, 2025] 12:30 PM - 01:00 PM \u2014 Meeting with raj (Meeting) \ud83d\udcbe\n6. [Thursday, October 30, 2025] 01:00 PM - 01:30 PM \u2014 Meeting with Raj (Meeting) \ud83d\udcbe\n7. [Thursday, October 30, 2025] 01:20 PM - 03:00 PM \u2014 CSEN 20 - Introduction to Embedded Systems (Google Calendar) \u2601\ufe0f\n8. [Thursday, October 30, 2025] 03:00 PM - 03:30 PM \u2014 Meeting with Sarah (Meeting) \ud83d\udcbe\n9. [Thursday, October 30, 2025] 04:00 PM - 04:30 PM \u2014 Meeting with raj (Meeting) \ud83d\udcbe\n10. [Thursday, October 30, 2025] 04:30 PM - 05:00 PM \u2014 Meeting with Sarah (Zoom) \ud83d\udcbe\n11. [Friday, October 31, 2025] 12:00 PM - 12:30 PM \u2014 Meeting with Raj (Meeting) \ud83d\udcbe\n12. [Friday, October 31, 2025] 12:30 PM - 01:00 PM \u2014 Meeting with raj (Meeting) \ud83d\udcbe\n13. [Friday, October 31, 2025] 01:00 PM - 01:30 PM \u2014 Meeting with raj (Meeting) \ud83d\udcbe\n14. [Friday, October 31, 2025] 01:30 PM - 02:35 PM \u2014 ECEN 21-2 Logic Design (Google Calendar) \u2601\ufe0f\n15. [Friday, October 31, 2025] 02:00 PM - 02:00 PM \u2014 MATH 13 HW (Google Calendar) \u2601\ufe0f\n16. [Friday, October 31, 2025] 02:45 PM - 03:50 PM \u2014 MATH 13-3 Calculus 3 (Google Calendar) \u2601\ufe0f\n17. [Friday, October 31, 2025] 04:00 PM - 04:30 PM \u2014 Meeting with Sarah (Meeting) \ud83d\udcbe\n18. [Friday, October 31, 2025] 05:00 PM - 05:30 PM \u2014 Meeting with Sarah (Meeting) \ud83d\udcbe\n19. [Saturday, November 01, 2025] 02:00 PM - 02:00 PM \u2014 MATH 13 HW (Google Calendar) \u2601\ufe0f\n20. [Monday, November 03, 2025] 01:30 PM - 02:35 PM \u2014 ECEN 21-2 Logic Design (Google Calendar) \u2601\ufe0f\n21. [Monday, November 03, 2025] 02:45 PM - 03:50 PM \u2014 MATH 13-3 Calculus 3 (Google Calendar) \u2601\ufe0f\n22. [Monday, November 03, 2025] 04:00 PM - 05:05 PM \u2014 ENGE 35 - Career Launch (Google Calendar) \u2601\ufe0f\n23. [Monday, November 03, 2025] 05:15 PM - 08:00 PM \u2014 ECEN 21L-1 Logic Design lab (Google Calendar) \u2601\ufe0f\n24. [Tuesday, November 04, 2025] 11:30 AM - 12:00 PM \u2014 Two ENG 110 Assignments  (Google Calendar) \u2601\ufe0f\n25. [Tuesday, November 04, 2025] 01:20 PM - 03:00 PM \u2014 CSEN 20 - Introduction to Embedded Systems (Google Calendar) \u2601\ufe0f\n26. [Tuesday, November 04, 2025] 05:15 PM - 08:00 PM \u2014 ENGR 110 - Community Based Engineering Design (Google Calendar) \u2601\ufe0f\n27. [Wednesday, November 05, 2025] 11:00 AM - 11:30 AM \u2014 Two Math assignments due (Google Calendar) \u2601\ufe0f\n28. [Wednesday, November 05, 2025] 11:30 AM - 12:00 PM \u2014 ECEN 21 - HW1 (Google Calendar) \u2601\ufe0f\n29. [Wednesday, November 05, 2025] 12:15 PM - 01:00 PM \u2014 OFFICE HOURS - ECEN21 (Google Calendar) \u2601\ufe0f\n30. [Wednesday, November 05, 2025] 01:30 PM - 02:35 PM \u2014 ECEN 21-2 Logic Design (Google Calendar) \u2601\ufe0f\n",
+      "intent": "list_meetings",
+      "metadata": {
+        "participants": [],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    },
+    {
+      "timestamp": "2025-10-30T11:53:56.891812",
+      "user": "memory clear",
+      "assistant": "\ud83d\udcc5 Your scheduled meetings:\n\n1. [Wednesday, October 29, 2025] 12:00 PM - 12:30 PM \u2014 Meeting with me, raj (Meeting) \ud83d\udcbe\n2. [Wednesday, October 29, 2025] 01:00 PM - 01:30 PM \u2014 Meeting with raj (Zoom) \ud83d\udcbe\n3. [Thursday, October 30, 2025] 11:00 AM - 11:30 AM \u2014 Meeting with Alex (Meeting) \ud83d\udcbe\n4. [Thursday, October 30, 2025] 12:00 PM - 12:30 PM \u2014 Meeting with me, raj (Meeting) \ud83d\udcbe\n5. [Thursday, October 30, 2025] 12:30 PM - 01:00 PM \u2014 Meeting with raj (Meeting) \ud83d\udcbe\n6. [Thursday, October 30, 2025] 01:00 PM - 01:30 PM \u2014 Meeting with Raj (Meeting) \ud83d\udcbe\n7. [Thursday, October 30, 2025] 01:20 PM - 03:00 PM \u2014 CSEN 20 - Introduction to Embedded Systems (Google Calendar) \u2601\ufe0f\n8. [Thursday, October 30, 2025] 03:00 PM - 03:30 PM \u2014 Meeting with Sarah (Meeting) \ud83d\udcbe\n9. [Thursday, October 30, 2025] 04:00 PM - 04:30 PM \u2014 Meeting with raj (Meeting) \ud83d\udcbe\n10. [Thursday, October 30, 2025] 04:30 PM - 05:00 PM \u2014 Meeting with Sarah (Zoom) \ud83d\udcbe\n11. [Friday, October 31, 2025] 12:00 PM - 12:30 PM \u2014 Meeting with Raj (Meeting) \ud83d\udcbe\n12. [Friday, October 31, 2025] 12:30 PM - 01:00 PM \u2014 Meeting with raj (Meeting) \ud83d\udcbe\n13. [Friday, October 31, 2025] 01:00 PM - 01:30 PM \u2014 Meeting with raj (Meeting) \ud83d\udcbe\n14. [Friday, October 31, 2025] 01:30 PM - 02:35 PM \u2014 ECEN 21-2 Logic Design (Google Calendar) \u2601\ufe0f\n15. [Friday, October 31, 2025] 02:00 PM - 02:00 PM \u2014 MATH 13 HW (Google Calendar) \u2601\ufe0f\n16. [Friday, October 31, 2025] 02:45 PM - 03:50 PM \u2014 MATH 13-3 Calculus 3 (Google Calendar) \u2601\ufe0f\n17. [Friday, October 31, 2025] 04:00 PM - 04:30 PM \u2014 Meeting with Sarah (Meeting) \ud83d\udcbe\n18. [Friday, October 31, 2025] 05:00 PM - 05:30 PM \u2014 Meeting with Sarah (Meeting) \ud83d\udcbe\n19. [Saturday, November 01, 2025] 02:00 PM - 02:00 PM \u2014 MATH 13 HW (Google Calendar) \u2601\ufe0f\n20. [Monday, November 03, 2025] 01:30 PM - 02:35 PM \u2014 ECEN 21-2 Logic Design (Google Calendar) \u2601\ufe0f\n21. [Monday, November 03, 2025] 02:45 PM - 03:50 PM \u2014 MATH 13-3 Calculus 3 (Google Calendar) \u2601\ufe0f\n22. [Monday, November 03, 2025] 04:00 PM - 05:05 PM \u2014 ENGE 35 - Career Launch (Google Calendar) \u2601\ufe0f\n23. [Monday, November 03, 2025] 05:15 PM - 08:00 PM \u2014 ECEN 21L-1 Logic Design lab (Google Calendar) \u2601\ufe0f\n24. [Tuesday, November 04, 2025] 11:30 AM - 12:00 PM \u2014 Two ENG 110 Assignments  (Google Calendar) \u2601\ufe0f\n25. [Tuesday, November 04, 2025] 01:20 PM - 03:00 PM \u2014 CSEN 20 - Introduction to Embedded Systems (Google Calendar) \u2601\ufe0f\n26. [Tuesday, November 04, 2025] 05:15 PM - 08:00 PM \u2014 ENGR 110 - Community Based Engineering Design (Google Calendar) \u2601\ufe0f\n27. [Wednesday, November 05, 2025] 11:00 AM - 11:30 AM \u2014 Two Math assignments due (Google Calendar) \u2601\ufe0f\n28. [Wednesday, November 05, 2025] 11:30 AM - 12:00 PM \u2014 ECEN 21 - HW1 (Google Calendar) \u2601\ufe0f\n29. [Wednesday, November 05, 2025] 12:15 PM - 01:00 PM \u2014 OFFICE HOURS - ECEN21 (Google Calendar) \u2601\ufe0f\n30. [Wednesday, November 05, 2025] 01:30 PM - 02:35 PM \u2014 ECEN 21-2 Logic Design (Google Calendar) \u2601\ufe0f\n31. [Wednesday, November 05, 2025] 02:00 PM - 02:00 PM \u2014 MATH 13 HW (Google Calendar) \u2601\ufe0f\n32. [Wednesday, November 05, 2025] 02:45 PM - 03:50 PM \u2014 MATH 13-3 Calculus 3 (Google Calendar) \u2601\ufe0f\n33. [Wednesday, November 05, 2025] 05:15 PM - 08:00 PM \u2014 CSEN 20L - Embedded Systems Laboratory (Google Calendar) \u2601\ufe0f\n34. [Thursday, November 06, 2025] 11:30 AM - 12:00 PM \u2014 CSEN 20L - LAB 2 due (Google Calendar) \u2601\ufe0f\n",
+      "intent": "list_meetings",
+      "metadata": {
+        "participants": [],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    },
+    {
+      "timestamp": "2025-10-30T11:54:39.264461",
+      "user": "cancel meeting",
+      "assistant": "\u2705 Meeting 'Meeting with me, raj' at 12:00 PM - 12:30 PM has been cancelled.",
+      "intent": "cancel_meeting",
+      "metadata": {
+        "participants": [
+          "raj"
+        ],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    },
+    {
+      "timestamp": "2025-10-30T11:55:15.017457",
+      "user": "cancel my meeting",
+      "assistant": "\u2705 Meeting 'Meeting with Alex' at 11:00 AM - 11:30 AM has been cancelled.",
+      "intent": "cancel_meeting",
+      "metadata": {
+        "participants": [
+          "raj"
+        ],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    },
+    {
+      "timestamp": "2025-10-30T11:55:31.209737",
+      "user": "cancel multiple meetings",
+      "assistant": "Meeting cancellation initiated.",
+      "intent": "cancel_meeting",
+      "metadata": {
+        "participants": [],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    },
+    {
+      "timestamp": "2025-10-30T11:56:15.792950",
+      "user": "schedule a four hour meeting with raj on friday",
+      "assistant": "I couldn't complete that request. Could you please provide more details?",
+      "intent": "schedule_meeting",
+      "metadata": {
+        "participants": [
+          "raj"
+        ],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    },
+    {
+      "timestamp": "2025-10-30T11:56:42.970561",
+      "user": "schedule a 4 hour meeting with raj saturday",
+      "assistant": "I couldn't complete that request. Could you please provide more details?",
+      "intent": "schedule_meeting",
+      "metadata": {
+        "participants": [
+          "raj"
+        ],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    },
+    {
+      "timestamp": "2025-10-30T11:57:00.591717",
+      "user": "schedule a meeting with raj for tomorrow",
+      "assistant": "\u2705 Meeting confirmed for Friday, October 31 at 04:30 PM with raj (30 minutes).",
+      "intent": "schedule_meeting",
+      "metadata": {
+        "participants": [
+          "raj"
+        ],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    },
+    {
+      "timestamp": "2025-10-30T11:57:54.900552",
+      "user": "schedule a meeting with ali on friday",
+      "assistant": "I couldn't complete that request. Could you please provide more details?",
+      "intent": "schedule_meeting",
+      "metadata": {
+        "participants": [
+          "ali"
+        ],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    },
+    {
+      "timestamp": "2025-10-30T11:58:25.791961",
+      "user": "schedle a meeting with raj tomorrow",
+      "assistant": "I couldn't complete that request. Could you please provide more details?",
+      "intent": "schedule_meeting",
+      "metadata": {
+        "participants": [
+          "raj"
+        ],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    },
+    {
+      "timestamp": "2025-10-30T11:58:51.687912",
+      "user": "Schedule a meeting with raj for tomorrow",
+      "assistant": "I couldn't complete that request. Could you please provide more details?",
+      "intent": "schedule_meeting",
+      "metadata": {
+        "participants": [
+          "raj"
+        ],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    },
+    {
+      "timestamp": "2025-10-30T15:51:15.193810",
+      "user": "memory clear",
+      "assistant": "\ud83d\udcc5 Your scheduled meetings:\n\n1. [Wednesday, October 29, 2025] 01:00 PM - 01:30 PM \u2014 Meeting with raj (Zoom) \ud83d\udcbe\n2. [Thursday, October 30, 2025] 12:00 PM - 12:30 PM \u2014 Meeting with me, raj (Meeting) \ud83d\udcbe\n3. [Thursday, October 30, 2025] 12:30 PM - 01:00 PM \u2014 Meeting with raj (Meeting) \ud83d\udcbe\n4. [Thursday, October 30, 2025] 01:00 PM - 01:30 PM \u2014 Meeting with Raj (Meeting) \ud83d\udcbe\n5. [Thursday, October 30, 2025] 03:00 PM - 03:30 PM \u2014 Meeting with Sarah (Meeting) \ud83d\udcbe\n6. [Thursday, October 30, 2025] 04:00 PM - 04:30 PM \u2014 Meeting with raj (Meeting) \ud83d\udcbe\n7. [Thursday, October 30, 2025] 04:30 PM - 05:00 PM \u2014 Meeting with Sarah (Zoom) \ud83d\udcbe\n8. [Friday, October 31, 2025] 12:00 PM - 12:30 PM \u2014 Meeting with Raj (Meeting) \ud83d\udcbe\n9. [Friday, October 31, 2025] 12:30 PM - 01:00 PM \u2014 Meeting with raj (Meeting) \ud83d\udcbe\n10. [Friday, October 31, 2025] 01:00 PM - 01:30 PM \u2014 Meeting with raj (Meeting) \ud83d\udcbe\n11. [Friday, October 31, 2025] 01:30 PM - 02:35 PM \u2014 ECEN 21-2 Logic Design (Google Calendar) \u2601\ufe0f\n12. [Friday, October 31, 2025] 02:00 PM - 02:00 PM \u2014 MATH 13 HW (Google Calendar) \u2601\ufe0f\n13. [Friday, October 31, 2025] 02:45 PM - 03:50 PM \u2014 MATH 13-3 Calculus 3 (Google Calendar) \u2601\ufe0f\n14. [Friday, October 31, 2025] 04:00 PM - 04:30 PM \u2014 Meeting with Sarah (Meeting) \ud83d\udcbe\n15. [Friday, October 31, 2025] 04:30 PM - 05:00 PM \u2014 Meeting with raj (Meeting) \ud83d\udcbe\n16. [Friday, October 31, 2025] 05:00 PM - 05:30 PM \u2014 Meeting with Sarah (Meeting) \ud83d\udcbe\n17. [Saturday, November 01, 2025] 02:00 PM - 02:00 PM \u2014 MATH 13 HW (Google Calendar) \u2601\ufe0f\n18. [Monday, November 03, 2025] 01:30 PM - 02:35 PM \u2014 ECEN 21-2 Logic Design (Google Calendar) \u2601\ufe0f\n19. [Monday, November 03, 2025] 02:45 PM - 03:50 PM \u2014 MATH 13-3 Calculus 3 (Google Calendar) \u2601\ufe0f\n20. [Monday, November 03, 2025] 04:00 PM - 05:05 PM \u2014 ENGE 35 - Career Launch (Google Calendar) \u2601\ufe0f\n21. [Monday, November 03, 2025] 05:15 PM - 08:00 PM \u2014 ECEN 21L-1 Logic Design lab (Google Calendar) \u2601\ufe0f\n22. [Tuesday, November 04, 2025] 11:30 AM - 12:00 PM \u2014 Two ENG 110 Assignments  (Google Calendar) \u2601\ufe0f\n23. [Tuesday, November 04, 2025] 01:20 PM - 03:00 PM \u2014 CSEN 20 - Introduction to Embedded Systems (Google Calendar) \u2601\ufe0f\n24. [Tuesday, November 04, 2025] 05:15 PM - 08:00 PM \u2014 ENGR 110 - Community Based Engineering Design (Google Calendar) \u2601\ufe0f\n25. [Wednesday, November 05, 2025] 11:00 AM - 11:30 AM \u2014 Two Math assignments due (Google Calendar) \u2601\ufe0f\n26. [Wednesday, November 05, 2025] 11:30 AM - 12:00 PM \u2014 ECEN 21 - HW1 (Google Calendar) \u2601\ufe0f\n27. [Wednesday, November 05, 2025] 12:15 PM - 01:00 PM \u2014 OFFICE HOURS - ECEN21 (Google Calendar) \u2601\ufe0f\n28. [Wednesday, November 05, 2025] 01:30 PM - 02:35 PM \u2014 ECEN 21-2 Logic Design (Google Calendar) \u2601\ufe0f\n29. [Wednesday, November 05, 2025] 02:00 PM - 02:00 PM \u2014 MATH 13 HW (Google Calendar) \u2601\ufe0f\n30. [Wednesday, November 05, 2025] 02:45 PM - 03:50 PM \u2014 MATH 13-3 Calculus 3 (Google Calendar) \u2601\ufe0f\n31. [Wednesday, November 05, 2025] 05:15 PM - 08:00 PM \u2014 CSEN 20L - Embedded Systems Laboratory (Google Calendar) \u2601\ufe0f\n32. [Thursday, November 06, 2025] 11:30 AM - 12:00 PM \u2014 CSEN 20L - LAB 2 due (Google Calendar) \u2601\ufe0f\n33. [Thursday, November 06, 2025] 01:20 PM - 03:00 PM \u2014 CSEN 20 - Introduction to Embedded Systems (Google Calendar) \u2601\ufe0f\n",
+      "intent": "list_meetings",
+      "metadata": {
+        "participants": [],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    },
+    {
+      "timestamp": "2025-10-30T15:51:22.451972",
+      "user": "schedule a meeting with raj for tomorrow",
+      "assistant": "I couldn't complete that request. Could you please provide more details?",
+      "intent": "schedule_meeting",
+      "metadata": {
+        "participants": [
+          "raj"
+        ],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    },
+    {
+      "timestamp": "2025-10-30T15:52:10.467823",
+      "user": "cancel meeting",
+      "assistant": "\u2705 Meeting 'Meeting with raj' at 01:00 PM - 01:30 PM has been cancelled.",
+      "intent": "cancel_meeting",
+      "metadata": {
+        "participants": [
+          "raj"
+        ],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    },
+    {
+      "timestamp": "2025-10-30T15:52:39.707139",
+      "user": "cancel meeting",
+      "assistant": "\u2705 Meeting 'Meeting with me, raj' at 12:00 PM - 12:30 PM has been cancelled.",
+      "intent": "cancel_meeting",
+      "metadata": {
+        "participants": [
+          "raj"
+        ],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    },
+    {
+      "timestamp": "2025-10-30T15:52:46.815798",
+      "user": "cancel meeting",
+      "assistant": "\u2705 Meeting 'Meeting with raj' at 12:30 PM - 01:00 PM has been cancelled.",
+      "intent": "cancel_meeting",
+      "metadata": {
+        "participants": [
+          "raj"
+        ],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    },
+    {
+      "timestamp": "2025-10-30T15:52:54.215452",
+      "user": "cancel meeting",
+      "assistant": "\u2705 Meeting 'Meeting with Raj' at 01:00 PM - 01:30 PM has been cancelled.",
+      "intent": "cancel_meeting",
+      "metadata": {
+        "participants": [
+          "raj"
+        ],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    },
+    {
+      "timestamp": "2025-10-30T15:52:59.494943",
+      "user": "cancel meeting",
+      "assistant": "\u2705 Meeting 'Meeting with Sarah' at 03:00 PM - 03:30 PM has been cancelled.",
+      "intent": "cancel_meeting",
+      "metadata": {
+        "participants": [
+          "raj"
+        ],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    },
+    {
+      "timestamp": "2025-10-30T15:53:04.469369",
+      "user": "cancel meeting",
+      "assistant": "\u2705 Meeting 'Meeting with raj' at 04:00 PM - 04:30 PM has been cancelled.",
+      "intent": "cancel_meeting",
+      "metadata": {
+        "participants": [
+          "raj"
+        ],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    },
+    {
+      "timestamp": "2025-10-30T15:53:11.053209",
+      "user": "cancel meeting",
+      "assistant": "\u2705 Meeting 'Meeting with Sarah' at 04:30 PM - 05:00 PM has been cancelled.",
+      "intent": "cancel_meeting",
+      "metadata": {
+        "participants": [
+          "raj"
+        ],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    },
+    {
+      "timestamp": "2025-10-30T15:53:17.708137",
+      "user": "cancel meeting",
+      "assistant": "\u2705 Meeting 'Meeting with Raj' at 12:00 PM - 12:30 PM has been cancelled.",
+      "intent": "cancel_meeting",
+      "metadata": {
+        "participants": [
+          "raj"
+        ],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    },
+    {
+      "timestamp": "2025-10-30T15:53:25.259662",
+      "user": "cancel meeting",
+      "assistant": "\u2705 Meeting 'Meeting with raj' at 12:30 PM - 01:00 PM has been cancelled.",
+      "intent": "cancel_meeting",
+      "metadata": {
+        "participants": [
+          "raj"
+        ],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    },
+    {
+      "timestamp": "2025-10-30T15:53:32.645964",
+      "user": "cancel meeting",
+      "assistant": "\u2705 Meeting 'Meeting with raj' at 01:00 PM - 01:30 PM has been cancelled.",
+      "intent": "cancel_meeting",
+      "metadata": {
+        "participants": [
+          "raj"
+        ],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    },
+    {
+      "timestamp": "2025-10-30T15:53:56.522182",
+      "user": "cancel meeting",
+      "assistant": "\u2705 Meeting 'Meeting with Sarah' at 04:00 PM - 04:30 PM has been cancelled.",
+      "intent": "cancel_meeting",
+      "metadata": {
+        "participants": [
+          "raj"
+        ],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    },
+    {
+      "timestamp": "2025-10-30T15:54:08.967900",
+      "user": "cancel meeting",
+      "assistant": "\u2705 Meeting 'Meeting with raj' at 04:30 PM - 05:00 PM has been cancelled.",
+      "intent": "cancel_meeting",
+      "metadata": {
+        "participants": [
+          "raj"
+        ],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    },
+    {
+      "timestamp": "2025-10-30T15:54:17.166765",
+      "user": "cancel meeting",
+      "assistant": "\u2705 Meeting 'Meeting with Sarah' at 05:00 PM - 05:30 PM has been cancelled.",
+      "intent": "cancel_meeting",
+      "metadata": {
+        "participants": [
+          "raj"
+        ],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    },
+    {
+      "timestamp": "2025-10-30T15:54:42.664432",
+      "user": "schedule a meeting with raj for tomorrow",
+      "assistant": "\u2705 Meeting confirmed for Friday, October 31 at 12:00 PM with raj (30 minutes).",
+      "intent": "schedule_meeting",
+      "metadata": {
+        "participants": [
+          "raj"
+        ],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    },
+    {
+      "timestamp": "2025-10-30T15:54:58.667003",
+      "user": "schedule a meeting with sarah for saturday",
+      "assistant": "\u2705 Meeting confirmed for Friday, October 31 at 12:30 PM with sarah (30 minutes).",
+      "intent": "schedule_meeting",
+      "metadata": {
+        "participants": [
+          "sarah"
+        ],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    },
+    {
+      "timestamp": "2025-10-30T15:55:21.058609",
+      "user": "memory clean",
+      "assistant": "\ud83d\udcc5 Your scheduled meetings:\n\n1. [Friday, October 31, 2025] 12:00 PM - 12:30 PM \u2014 Meeting with raj (Meeting) \ud83d\udcbe\n2. [Friday, October 31, 2025] 12:30 PM - 01:00 PM \u2014 Meeting with sarah (Meeting) \ud83d\udcbe\n3. [Friday, October 31, 2025] 01:30 PM - 02:35 PM \u2014 ECEN 21-2 Logic Design (Google Calendar) \u2601\ufe0f\n4. [Friday, October 31, 2025] 02:00 PM - 02:00 PM \u2014 MATH 13 HW (Google Calendar) \u2601\ufe0f\n5. [Friday, October 31, 2025] 02:45 PM - 03:50 PM \u2014 MATH 13-3 Calculus 3 (Google Calendar) \u2601\ufe0f\n6. [Saturday, November 01, 2025] 02:00 PM - 02:00 PM \u2014 MATH 13 HW (Google Calendar) \u2601\ufe0f\n7. [Monday, November 03, 2025] 01:30 PM - 02:35 PM \u2014 ECEN 21-2 Logic Design (Google Calendar) \u2601\ufe0f\n8. [Monday, November 03, 2025] 02:45 PM - 03:50 PM \u2014 MATH 13-3 Calculus 3 (Google Calendar) \u2601\ufe0f\n9. [Monday, November 03, 2025] 04:00 PM - 05:05 PM \u2014 ENGE 35 - Career Launch (Google Calendar) \u2601\ufe0f\n10. [Monday, November 03, 2025] 05:15 PM - 08:00 PM \u2014 ECEN 21L-1 Logic Design lab (Google Calendar) \u2601\ufe0f\n11. [Tuesday, November 04, 2025] 11:30 AM - 12:00 PM \u2014 Two ENG 110 Assignments  (Google Calendar) \u2601\ufe0f\n12. [Tuesday, November 04, 2025] 01:20 PM - 03:00 PM \u2014 CSEN 20 - Introduction to Embedded Systems (Google Calendar) \u2601\ufe0f\n13. [Tuesday, November 04, 2025] 05:15 PM - 08:00 PM \u2014 ENGR 110 - Community Based Engineering Design (Google Calendar) \u2601\ufe0f\n14. [Wednesday, November 05, 2025] 11:00 AM - 11:30 AM \u2014 Two Math assignments due (Google Calendar) \u2601\ufe0f\n15. [Wednesday, November 05, 2025] 11:30 AM - 12:00 PM \u2014 ECEN 21 - HW1 (Google Calendar) \u2601\ufe0f\n16. [Wednesday, November 05, 2025] 12:15 PM - 01:00 PM \u2014 OFFICE HOURS - ECEN21 (Google Calendar) \u2601\ufe0f\n17. [Wednesday, November 05, 2025] 01:30 PM - 02:35 PM \u2014 ECEN 21-2 Logic Design (Google Calendar) \u2601\ufe0f\n18. [Wednesday, November 05, 2025] 02:00 PM - 02:00 PM \u2014 MATH 13 HW (Google Calendar) \u2601\ufe0f\n19. [Wednesday, November 05, 2025] 02:45 PM - 03:50 PM \u2014 MATH 13-3 Calculus 3 (Google Calendar) \u2601\ufe0f\n20. [Wednesday, November 05, 2025] 05:15 PM - 08:00 PM \u2014 CSEN 20L - Embedded Systems Laboratory (Google Calendar) \u2601\ufe0f\n",
+      "intent": "list_meetings",
+      "metadata": {
+        "participants": [],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    },
+    {
+      "timestamp": "2025-10-30T15:56:03.289125",
+      "user": "delete memory",
+      "assistant": "Meeting cancellation initiated.",
+      "intent": "cancel_meeting",
+      "metadata": {
+        "participants": [],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    },
+    {
+      "timestamp": "2025-10-30T15:56:10.536414",
+      "user": "cancel meeting",
+      "assistant": "\u2705 Meeting 'Meeting with raj' at 12:00 PM - 12:30 PM has been cancelled.",
+      "intent": "cancel_meeting",
+      "metadata": {
+        "participants": [
+          "sarah"
+        ],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    },
+    {
+      "timestamp": "2025-10-30T15:56:15.189644",
+      "user": "cancel meeting",
+      "assistant": "\u2705 Meeting 'Meeting with sarah' at 12:30 PM - 01:00 PM has been cancelled.",
+      "intent": "cancel_meeting",
+      "metadata": {
+        "participants": [
+          "sarah"
+        ],
+        "platform": "Meeting",
+        "conflicts": 0
+      }
+    }
+  ],
+  "context": {
+    "last_participant": "sarah",
+    "last_meeting_time": null,
+    "last_duration": 30,
+    "preferred_platform": "Meeting",
+    "user_preferences": {}
+  },
+  "created_at": "2025-10-30T11:34:05.738183"
+}

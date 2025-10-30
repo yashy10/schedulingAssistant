@@ -1,0 +1,3326 @@
+{
+  "users": {
+    "current_user": {
+      "name": "You",
+      "timezone": "PST",
+      "busy_slots": []
+    },
+    "raj": {
+      "name": "raj",
+      "busy_slots": [
+        {
+          "start": "2025-10-29T16:00:00",
+          "end": "2025-10-29T16:30:00"
+        },
+        {
+          "start": "2025-10-29T12:00:00",
+          "end": "2025-10-29T12:30:00"
+        },
+        {
+          "start": "2025-10-30T12:00:00",
+          "end": "2025-10-30T12:30:00"
+        },
+        {
+          "start": "2025-10-30T12:30:00",
+          "end": "2025-10-30T13:00:00"
+        },
+        {
+          "start": "2025-10-30T16:00:00",
+          "end": "2025-10-30T16:30:00"
+        },
+        {
+          "start": "2025-10-29T13:00:00",
+          "end": "2025-10-29T13:30:00"
+        },
+        {
+          "start": "2025-10-30T13:00:00",
+          "end": "2025-10-30T13:30:00"
+        },
+        {
+          "start": "2025-10-31T12:00:00",
+          "end": "2025-10-31T12:30:00"
+        },
+        {
+          "start": "2025-10-31T12:30:00",
+          "end": "2025-10-31T13:00:00"
+        },
+        {
+          "start": "2025-10-31T13:00:00",
+          "end": "2025-10-31T13:30:00"
+        },
+        {
+          "start": "2025-10-31T16:30:00",
+          "end": "2025-10-31T17:00:00"
+        },
+        {
+          "start": "2025-10-31T12:00:00",
+          "end": "2025-10-31T12:30:00"
+        }
+      ]
+    },
+    "me": {
+      "name": "me",
+      "busy_slots": [
+        {
+          "start": "2025-10-29T12:00:00",
+          "end": "2025-10-29T12:30:00"
+        },
+        {
+          "start": "2025-10-30T12:00:00",
+          "end": "2025-10-30T12:30:00"
+        }
+      ]
+    },
+    "sarah": {
+      "name": "Sarah",
+      "busy_slots": [
+        {
+          "start": "2025-10-30T15:00:00",
+          "end": "2025-10-30T15:30:00"
+        },
+        {
+          "start": "2025-10-31T16:00:00",
+          "end": "2025-10-31T16:30:00"
+        },
+        {
+          "start": "2025-10-31T17:00:00",
+          "end": "2025-10-31T17:30:00"
+        },
+        {
+          "start": "2025-10-31T12:30:00",
+          "end": "2025-10-31T13:00:00"
+        }
+      ]
+    }
+  },
+  "meetings": [
+    {
+      "kind": "calendar#event",
+      "etag": "\"3521000689245118\"",
+      "id": "2718bdc708fd43b49ee4a54ddc1458ca_20251030T153000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MjcxOGJkYzcwOGZkNDNiNDllZTRhNTRkZGMxNDU4Y2FfMjAyNTEwMzBUMTUzMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-30T04:59:48.000Z",
+      "updated": "2025-10-15T03:52:24.622Z",
+      "summary": "CSEN 20L - LAB 2 due",
+      "colorId": "3",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T11:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T12:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "2718bdc708fd43b49ee4a54ddc1458ca",
+      "originalStartTime": {
+        "dateTime": "2025-10-30T11:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "2718bdc708fd43b49ee4a54ddc1458ca@google.com",
+      "sequence": 2,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517121203723454\"",
+      "id": "1ed67a005cbd4adcad2996bf7396eaeb_20251030T172000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MWVkNjdhMDA1Y2JkNGFkY2FkMjk5NmJmNzM5NmVhZWJfMjAyNTEwMzBUMTcyMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T17:02:53.000Z",
+      "updated": "2025-09-22T17:03:21.861Z",
+      "summary": "CSEN 20 - Introduction to Embedded Systems",
+      "description": "Rm 102 O'Connor Hall\n\n",
+      "location": " 1st Floor O'Connor Hall",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T13:20:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T15:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "1ed67a005cbd4adcad2996bf7396eaeb",
+      "originalStartTime": {
+        "dateTime": "2025-10-30T13:20:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "1ed67a005cbd4adcad2996bf7396eaeb@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3521000689245118\"",
+      "id": "2718bdc708fd43b49ee4a54ddc1458ca_20251030T153000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MjcxOGJkYzcwOGZkNDNiNDllZTRhNTRkZGMxNDU4Y2FfMjAyNTEwMzBUMTUzMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-30T04:59:48.000Z",
+      "updated": "2025-10-15T03:52:24.622Z",
+      "summary": "CSEN 20L - LAB 2 due",
+      "colorId": "3",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T11:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T12:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "2718bdc708fd43b49ee4a54ddc1458ca",
+      "originalStartTime": {
+        "dateTime": "2025-10-30T11:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "2718bdc708fd43b49ee4a54ddc1458ca@google.com",
+      "sequence": 2,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517121203723454\"",
+      "id": "1ed67a005cbd4adcad2996bf7396eaeb_20251030T172000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MWVkNjdhMDA1Y2JkNGFkY2FkMjk5NmJmNzM5NmVhZWJfMjAyNTEwMzBUMTcyMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T17:02:53.000Z",
+      "updated": "2025-09-22T17:03:21.861Z",
+      "summary": "CSEN 20 - Introduction to Embedded Systems",
+      "description": "Rm 102 O'Connor Hall\n\n",
+      "location": " 1st Floor O'Connor Hall",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T13:20:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T15:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "1ed67a005cbd4adcad2996bf7396eaeb",
+      "originalStartTime": {
+        "dateTime": "2025-10-30T13:20:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "1ed67a005cbd4adcad2996bf7396eaeb@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3523563892554526\"",
+      "id": "r51ia7l12vltfimettchmsq5h8",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=cjUxaWE3bDEydmx0ZmltZXR0Y2htc3E1aDggeWFzaHRzYW5naHZpQG0",
+      "created": "2025-10-29T23:52:26.000Z",
+      "updated": "2025-10-29T23:52:26.277Z",
+      "summary": "Meeting with me, raj",
+      "description": "Platform: Meeting",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T15:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T15:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "r51ia7l12vltfimettchmsq5h8@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3521000689245118\"",
+      "id": "2718bdc708fd43b49ee4a54ddc1458ca_20251030T153000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MjcxOGJkYzcwOGZkNDNiNDllZTRhNTRkZGMxNDU4Y2FfMjAyNTEwMzBUMTUzMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-30T04:59:48.000Z",
+      "updated": "2025-10-15T03:52:24.622Z",
+      "summary": "CSEN 20L - LAB 2 due",
+      "colorId": "3",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T11:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T12:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "2718bdc708fd43b49ee4a54ddc1458ca",
+      "originalStartTime": {
+        "dateTime": "2025-10-30T11:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "2718bdc708fd43b49ee4a54ddc1458ca@google.com",
+      "sequence": 2,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517121203723454\"",
+      "id": "1ed67a005cbd4adcad2996bf7396eaeb_20251030T172000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MWVkNjdhMDA1Y2JkNGFkY2FkMjk5NmJmNzM5NmVhZWJfMjAyNTEwMzBUMTcyMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T17:02:53.000Z",
+      "updated": "2025-09-22T17:03:21.861Z",
+      "summary": "CSEN 20 - Introduction to Embedded Systems",
+      "description": "Rm 102 O'Connor Hall\n\n",
+      "location": " 1st Floor O'Connor Hall",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T13:20:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T15:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "1ed67a005cbd4adcad2996bf7396eaeb",
+      "originalStartTime": {
+        "dateTime": "2025-10-30T13:20:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "1ed67a005cbd4adcad2996bf7396eaeb@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3523563892554526\"",
+      "id": "r51ia7l12vltfimettchmsq5h8",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=cjUxaWE3bDEydmx0ZmltZXR0Y2htc3E1aDggeWFzaHRzYW5naHZpQG0",
+      "created": "2025-10-29T23:52:26.000Z",
+      "updated": "2025-10-29T23:52:26.277Z",
+      "summary": "Meeting with me, raj",
+      "description": "Platform: Meeting",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T15:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T15:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "r51ia7l12vltfimettchmsq5h8@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3523564339872958\"",
+      "id": "k44mcicc48i6v73sbp704qqsr8",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=azQ0bWNpY2M0OGk2djczc2JwNzA0cXFzcjggeWFzaHRzYW5naHZpQG0",
+      "created": "2025-10-29T23:56:09.000Z",
+      "updated": "2025-10-29T23:56:09.936Z",
+      "summary": "Meeting with raj",
+      "description": "Platform: Meeting",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T15:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T16:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "k44mcicc48i6v73sbp704qqsr8@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3521000689245118\"",
+      "id": "2718bdc708fd43b49ee4a54ddc1458ca_20251030T153000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MjcxOGJkYzcwOGZkNDNiNDllZTRhNTRkZGMxNDU4Y2FfMjAyNTEwMzBUMTUzMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-30T04:59:48.000Z",
+      "updated": "2025-10-15T03:52:24.622Z",
+      "summary": "CSEN 20L - LAB 2 due",
+      "colorId": "3",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T11:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T12:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "2718bdc708fd43b49ee4a54ddc1458ca",
+      "originalStartTime": {
+        "dateTime": "2025-10-30T11:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "2718bdc708fd43b49ee4a54ddc1458ca@google.com",
+      "sequence": 2,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517121203723454\"",
+      "id": "1ed67a005cbd4adcad2996bf7396eaeb_20251030T172000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MWVkNjdhMDA1Y2JkNGFkY2FkMjk5NmJmNzM5NmVhZWJfMjAyNTEwMzBUMTcyMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T17:02:53.000Z",
+      "updated": "2025-09-22T17:03:21.861Z",
+      "summary": "CSEN 20 - Introduction to Embedded Systems",
+      "description": "Rm 102 O'Connor Hall\n\n",
+      "location": " 1st Floor O'Connor Hall",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T13:20:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T15:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "1ed67a005cbd4adcad2996bf7396eaeb",
+      "originalStartTime": {
+        "dateTime": "2025-10-30T13:20:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "1ed67a005cbd4adcad2996bf7396eaeb@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3523563892554526\"",
+      "id": "r51ia7l12vltfimettchmsq5h8",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=cjUxaWE3bDEydmx0ZmltZXR0Y2htc3E1aDggeWFzaHRzYW5naHZpQG0",
+      "created": "2025-10-29T23:52:26.000Z",
+      "updated": "2025-10-29T23:52:26.277Z",
+      "summary": "Meeting with me, raj",
+      "description": "Platform: Meeting",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T15:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T15:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "r51ia7l12vltfimettchmsq5h8@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3523564339872958\"",
+      "id": "k44mcicc48i6v73sbp704qqsr8",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=azQ0bWNpY2M0OGk2djczc2JwNzA0cXFzcjggeWFzaHRzYW5naHZpQG0",
+      "created": "2025-10-29T23:56:09.000Z",
+      "updated": "2025-10-29T23:56:09.936Z",
+      "summary": "Meeting with raj",
+      "description": "Platform: Meeting",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T15:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T16:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "k44mcicc48i6v73sbp704qqsr8@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3523564488112414\"",
+      "id": "ov4dju0qhflin62fj4optlabns",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=b3Y0ZGp1MHFoZmxpbjYyZmo0b3B0bGFibnMgeWFzaHRzYW5naHZpQG0",
+      "created": "2025-10-29T23:57:23.000Z",
+      "updated": "2025-10-29T23:57:24.056Z",
+      "summary": "Meeting with raj",
+      "description": "Platform: Meeting",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T19:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T19:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "ov4dju0qhflin62fj4optlabns@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3521000689245118\"",
+      "id": "2718bdc708fd43b49ee4a54ddc1458ca_20251030T153000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MjcxOGJkYzcwOGZkNDNiNDllZTRhNTRkZGMxNDU4Y2FfMjAyNTEwMzBUMTUzMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-30T04:59:48.000Z",
+      "updated": "2025-10-15T03:52:24.622Z",
+      "summary": "CSEN 20L - LAB 2 due",
+      "colorId": "3",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T11:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T12:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "2718bdc708fd43b49ee4a54ddc1458ca",
+      "originalStartTime": {
+        "dateTime": "2025-10-30T11:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "2718bdc708fd43b49ee4a54ddc1458ca@google.com",
+      "sequence": 2,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517121203723454\"",
+      "id": "1ed67a005cbd4adcad2996bf7396eaeb_20251030T172000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MWVkNjdhMDA1Y2JkNGFkY2FkMjk5NmJmNzM5NmVhZWJfMjAyNTEwMzBUMTcyMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T17:02:53.000Z",
+      "updated": "2025-09-22T17:03:21.861Z",
+      "summary": "CSEN 20 - Introduction to Embedded Systems",
+      "description": "Rm 102 O'Connor Hall\n\n",
+      "location": " 1st Floor O'Connor Hall",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T13:20:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T15:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "1ed67a005cbd4adcad2996bf7396eaeb",
+      "originalStartTime": {
+        "dateTime": "2025-10-30T13:20:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "1ed67a005cbd4adcad2996bf7396eaeb@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3523563892554526\"",
+      "id": "r51ia7l12vltfimettchmsq5h8",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=cjUxaWE3bDEydmx0ZmltZXR0Y2htc3E1aDggeWFzaHRzYW5naHZpQG0",
+      "created": "2025-10-29T23:52:26.000Z",
+      "updated": "2025-10-29T23:52:26.277Z",
+      "summary": "Meeting with me, raj",
+      "description": "Platform: Meeting",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T15:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T15:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "r51ia7l12vltfimettchmsq5h8@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3523564339872958\"",
+      "id": "k44mcicc48i6v73sbp704qqsr8",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=azQ0bWNpY2M0OGk2djczc2JwNzA0cXFzcjggeWFzaHRzYW5naHZpQG0",
+      "created": "2025-10-29T23:56:09.000Z",
+      "updated": "2025-10-29T23:56:09.936Z",
+      "summary": "Meeting with raj",
+      "description": "Platform: Meeting",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T15:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T16:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "k44mcicc48i6v73sbp704qqsr8@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3523564488112414\"",
+      "id": "ov4dju0qhflin62fj4optlabns",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=b3Y0ZGp1MHFoZmxpbjYyZmo0b3B0bGFibnMgeWFzaHRzYW5naHZpQG0",
+      "created": "2025-10-29T23:57:23.000Z",
+      "updated": "2025-10-29T23:57:24.056Z",
+      "summary": "Meeting with raj",
+      "description": "Platform: Meeting",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T19:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T19:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "ov4dju0qhflin62fj4optlabns@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3523574403950686\"",
+      "id": "gkrsu2s0diclrru9q30vvie3o8",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Z2tyc3UyczBkaWNscnJ1OXEzMHZ2aWUzbzggeWFzaHRzYW5naHZpQG0",
+      "created": "2025-10-30T01:20:01.000Z",
+      "updated": "2025-10-30T01:20:01.975Z",
+      "summary": "Meeting with Sarah",
+      "description": "Platform: Zoom",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T19:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T20:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "gkrsu2s0diclrru9q30vvie3o8@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3521000689245118\"",
+      "id": "2718bdc708fd43b49ee4a54ddc1458ca_20251030T153000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MjcxOGJkYzcwOGZkNDNiNDllZTRhNTRkZGMxNDU4Y2FfMjAyNTEwMzBUMTUzMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-30T04:59:48.000Z",
+      "updated": "2025-10-15T03:52:24.622Z",
+      "summary": "CSEN 20L - LAB 2 due",
+      "colorId": "3",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T11:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T12:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "2718bdc708fd43b49ee4a54ddc1458ca",
+      "originalStartTime": {
+        "dateTime": "2025-10-30T11:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "2718bdc708fd43b49ee4a54ddc1458ca@google.com",
+      "sequence": 2,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517121203723454\"",
+      "id": "1ed67a005cbd4adcad2996bf7396eaeb_20251030T172000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MWVkNjdhMDA1Y2JkNGFkY2FkMjk5NmJmNzM5NmVhZWJfMjAyNTEwMzBUMTcyMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T17:02:53.000Z",
+      "updated": "2025-09-22T17:03:21.861Z",
+      "summary": "CSEN 20 - Introduction to Embedded Systems",
+      "description": "Rm 102 O'Connor Hall\n\n",
+      "location": " 1st Floor O'Connor Hall",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T13:20:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T15:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "1ed67a005cbd4adcad2996bf7396eaeb",
+      "originalStartTime": {
+        "dateTime": "2025-10-30T13:20:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "1ed67a005cbd4adcad2996bf7396eaeb@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3523563892554526\"",
+      "id": "r51ia7l12vltfimettchmsq5h8",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=cjUxaWE3bDEydmx0ZmltZXR0Y2htc3E1aDggeWFzaHRzYW5naHZpQG0",
+      "created": "2025-10-29T23:52:26.000Z",
+      "updated": "2025-10-29T23:52:26.277Z",
+      "summary": "Meeting with me, raj",
+      "description": "Platform: Meeting",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T15:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T15:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "r51ia7l12vltfimettchmsq5h8@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3523564339872958\"",
+      "id": "k44mcicc48i6v73sbp704qqsr8",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=azQ0bWNpY2M0OGk2djczc2JwNzA0cXFzcjggeWFzaHRzYW5naHZpQG0",
+      "created": "2025-10-29T23:56:09.000Z",
+      "updated": "2025-10-29T23:56:09.936Z",
+      "summary": "Meeting with raj",
+      "description": "Platform: Meeting",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T15:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T16:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "k44mcicc48i6v73sbp704qqsr8@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3523564488112414\"",
+      "id": "ov4dju0qhflin62fj4optlabns",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=b3Y0ZGp1MHFoZmxpbjYyZmo0b3B0bGFibnMgeWFzaHRzYW5naHZpQG0",
+      "created": "2025-10-29T23:57:23.000Z",
+      "updated": "2025-10-29T23:57:24.056Z",
+      "summary": "Meeting with raj",
+      "description": "Platform: Meeting",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T19:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T19:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "ov4dju0qhflin62fj4optlabns@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3523574403950686\"",
+      "id": "gkrsu2s0diclrru9q30vvie3o8",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Z2tyc3UyczBkaWNscnJ1OXEzMHZ2aWUzbzggeWFzaHRzYW5naHZpQG0",
+      "created": "2025-10-30T01:20:01.000Z",
+      "updated": "2025-10-30T01:20:01.975Z",
+      "summary": "Meeting with Sarah",
+      "description": "Platform: Zoom",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T19:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T20:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "gkrsu2s0diclrru9q30vvie3o8@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3521000681612094\"",
+      "id": "b5188ddd450a4895a2246aef0dddfc4e_20251029T150000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=YjUxODhkZGQ0NTBhNDg5NWEyMjQ2YWVmMGRkZGZjNGVfMjAyNTEwMjlUMTUwMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-30T05:06:35.000Z",
+      "updated": "2025-10-15T03:52:20.806Z",
+      "summary": "Two Math assignments due",
+      "colorId": "3",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-29T11:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-29T11:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "b5188ddd450a4895a2246aef0dddfc4e",
+      "originalStartTime": {
+        "dateTime": "2025-10-29T11:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "b5188ddd450a4895a2246aef0dddfc4e@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3521000673768830\"",
+      "id": "b53f3b9f8738493d9b41489f4ac8a8ef_20251029T153000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=YjUzZjNiOWY4NzM4NDkzZDliNDE0ODlmNGFjOGE4ZWZfMjAyNTEwMjlUMTUzMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-30T04:56:20.000Z",
+      "updated": "2025-10-15T03:52:16.884Z",
+      "summary": "ECEN 21 - HW1",
+      "colorId": "3",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-29T11:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-29T12:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "b53f3b9f8738493d9b41489f4ac8a8ef",
+      "originalStartTime": {
+        "dateTime": "2025-10-29T11:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "b53f3b9f8738493d9b41489f4ac8a8ef@google.com",
+      "sequence": 3,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3521000667068126\"",
+      "id": "70b2cd59daf24124be9a54eccf020413_20251029T161500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NzBiMmNkNTlkYWYyNDEyNGJlOWE1NGVjY2YwMjA0MTNfMjAyNTEwMjlUMTYxNTAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-30T04:57:35.000Z",
+      "updated": "2025-10-15T03:52:13.534Z",
+      "summary": "OFFICE HOURS - ECEN21",
+      "location": "SCDI 4025",
+      "colorId": "10",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-29T12:15:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-29T13:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "70b2cd59daf24124be9a54eccf020413",
+      "originalStartTime": {
+        "dateTime": "2025-10-29T12:15:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "70b2cd59daf24124be9a54eccf020413@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517125064426622\"",
+      "id": "e590f69ee76a4a6c9f73fed6fb6ea4a4_20251029T173000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=ZTU5MGY2OWVlNzZhNGE2YzlmNzNmZWQ2ZmI2ZWE0YTRfMjAyNTEwMjlUMTczMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T16:53:28.000Z",
+      "updated": "2025-09-22T17:35:32.213Z",
+      "summary": "ECEN 21-2 Logic Design",
+      "description": "Rm 310 Alumni Science Hall\n",
+      "location": "3rd Floor Alumni Science Hall",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-29T13:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-29T14:35:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "e590f69ee76a4a6c9f73fed6fb6ea4a4",
+      "originalStartTime": {
+        "dateTime": "2025-10-29T13:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "e590f69ee76a4a6c9f73fed6fb6ea4a4@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517193443944382\"",
+      "id": "74a68554c6ec4c64937e3edf1e44632b_20251029T180000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NzRhNjg1NTRjNmVjNGM2NDkzN2UzZWRmMWU0NDYzMmJfMjAyNTEwMjlUMTgwMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T18:52:07.000Z",
+      "updated": "2025-09-23T03:05:21.972Z",
+      "summary": "MATH 13 HW",
+      "colorId": "11",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-29T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-29T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "74a68554c6ec4c64937e3edf1e44632b",
+      "originalStartTime": {
+        "dateTime": "2025-10-29T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "74a68554c6ec4c64937e3edf1e44632b@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517120601866238\"",
+      "id": "2b1f631bc7cf42d2882f01801da5a6f6_20251029T184500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MmIxZjYzMWJjN2NmNDJkMjg4MmYwMTgwMWRhNWE2ZjZfMjAyNTEwMjlUMTg0NTAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T16:55:22.000Z",
+      "updated": "2025-09-22T16:58:20.933Z",
+      "summary": "MATH 13-3 Calculus 3",
+      "description": "Rm 205 O'Connor Hall\n",
+      "location": "2nd Floor O'Connor Hall",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-29T14:45:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-29T15:50:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "2b1f631bc7cf42d2882f01801da5a6f6",
+      "originalStartTime": {
+        "dateTime": "2025-10-29T14:45:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "2b1f631bc7cf42d2882f01801da5a6f6@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517121340362846\"",
+      "id": "4f2dcddb058b4233846e2407c6da4005_20251029T211500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NGYyZGNkZGIwNThiNDIzMzg0NmUyNDA3YzZkYTQwMDVfMjAyNTEwMjlUMjExNTAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T17:03:53.000Z",
+      "updated": "2025-09-22T17:04:30.181Z",
+      "summary": "CSEN 20L - Embedded Systems Laboratory",
+      "description": "Rm 112 Heafey Hall\n\n",
+      "location": "1st Floor Heafey Hall ",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-29T17:15:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-29T20:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "4f2dcddb058b4233846e2407c6da4005",
+      "originalStartTime": {
+        "dateTime": "2025-10-29T17:15:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "4f2dcddb058b4233846e2407c6da4005@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3521000689245118\"",
+      "id": "2718bdc708fd43b49ee4a54ddc1458ca_20251030T153000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MjcxOGJkYzcwOGZkNDNiNDllZTRhNTRkZGMxNDU4Y2FfMjAyNTEwMzBUMTUzMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-30T04:59:48.000Z",
+      "updated": "2025-10-15T03:52:24.622Z",
+      "summary": "CSEN 20L - LAB 2 due",
+      "colorId": "3",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T11:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T12:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "2718bdc708fd43b49ee4a54ddc1458ca",
+      "originalStartTime": {
+        "dateTime": "2025-10-30T11:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "2718bdc708fd43b49ee4a54ddc1458ca@google.com",
+      "sequence": 2,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517121203723454\"",
+      "id": "1ed67a005cbd4adcad2996bf7396eaeb_20251030T172000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MWVkNjdhMDA1Y2JkNGFkY2FkMjk5NmJmNzM5NmVhZWJfMjAyNTEwMzBUMTcyMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T17:02:53.000Z",
+      "updated": "2025-09-22T17:03:21.861Z",
+      "summary": "CSEN 20 - Introduction to Embedded Systems",
+      "description": "Rm 102 O'Connor Hall\n\n",
+      "location": " 1st Floor O'Connor Hall",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T13:20:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T15:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "1ed67a005cbd4adcad2996bf7396eaeb",
+      "originalStartTime": {
+        "dateTime": "2025-10-30T13:20:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "1ed67a005cbd4adcad2996bf7396eaeb@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3523563892554526\"",
+      "id": "r51ia7l12vltfimettchmsq5h8",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=cjUxaWE3bDEydmx0ZmltZXR0Y2htc3E1aDggeWFzaHRzYW5naHZpQG0",
+      "created": "2025-10-29T23:52:26.000Z",
+      "updated": "2025-10-29T23:52:26.277Z",
+      "summary": "Meeting with me, raj",
+      "description": "Platform: Meeting",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T15:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T15:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "r51ia7l12vltfimettchmsq5h8@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3523564339872958\"",
+      "id": "k44mcicc48i6v73sbp704qqsr8",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=azQ0bWNpY2M0OGk2djczc2JwNzA0cXFzcjggeWFzaHRzYW5naHZpQG0",
+      "created": "2025-10-29T23:56:09.000Z",
+      "updated": "2025-10-29T23:56:09.936Z",
+      "summary": "Meeting with raj",
+      "description": "Platform: Meeting",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T15:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T16:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "k44mcicc48i6v73sbp704qqsr8@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3523564488112414\"",
+      "id": "ov4dju0qhflin62fj4optlabns",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=b3Y0ZGp1MHFoZmxpbjYyZmo0b3B0bGFibnMgeWFzaHRzYW5naHZpQG0",
+      "created": "2025-10-29T23:57:23.000Z",
+      "updated": "2025-10-29T23:57:24.056Z",
+      "summary": "Meeting with raj",
+      "description": "Platform: Meeting",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T19:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T19:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "ov4dju0qhflin62fj4optlabns@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3523574403950686\"",
+      "id": "gkrsu2s0diclrru9q30vvie3o8",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Z2tyc3UyczBkaWNscnJ1OXEzMHZ2aWUzbzggeWFzaHRzYW5naHZpQG0",
+      "created": "2025-10-30T01:20:01.000Z",
+      "updated": "2025-10-30T01:20:01.975Z",
+      "summary": "Meeting with Sarah",
+      "description": "Platform: Zoom",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T19:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T20:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "gkrsu2s0diclrru9q30vvie3o8@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3521000689245118\"",
+      "id": "2718bdc708fd43b49ee4a54ddc1458ca_20251030T153000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MjcxOGJkYzcwOGZkNDNiNDllZTRhNTRkZGMxNDU4Y2FfMjAyNTEwMzBUMTUzMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-30T04:59:48.000Z",
+      "updated": "2025-10-15T03:52:24.622Z",
+      "summary": "CSEN 20L - LAB 2 due",
+      "colorId": "3",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T11:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T12:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "2718bdc708fd43b49ee4a54ddc1458ca",
+      "originalStartTime": {
+        "dateTime": "2025-10-30T11:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "2718bdc708fd43b49ee4a54ddc1458ca@google.com",
+      "sequence": 2,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517121203723454\"",
+      "id": "1ed67a005cbd4adcad2996bf7396eaeb_20251030T172000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MWVkNjdhMDA1Y2JkNGFkY2FkMjk5NmJmNzM5NmVhZWJfMjAyNTEwMzBUMTcyMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T17:02:53.000Z",
+      "updated": "2025-09-22T17:03:21.861Z",
+      "summary": "CSEN 20 - Introduction to Embedded Systems",
+      "description": "Rm 102 O'Connor Hall\n\n",
+      "location": " 1st Floor O'Connor Hall",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T13:20:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T15:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "1ed67a005cbd4adcad2996bf7396eaeb",
+      "originalStartTime": {
+        "dateTime": "2025-10-30T13:20:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "1ed67a005cbd4adcad2996bf7396eaeb@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3523563892554526\"",
+      "id": "r51ia7l12vltfimettchmsq5h8",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=cjUxaWE3bDEydmx0ZmltZXR0Y2htc3E1aDggeWFzaHRzYW5naHZpQG0",
+      "created": "2025-10-29T23:52:26.000Z",
+      "updated": "2025-10-29T23:52:26.277Z",
+      "summary": "Meeting with me, raj",
+      "description": "Platform: Meeting",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T15:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T15:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "r51ia7l12vltfimettchmsq5h8@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3523564339872958\"",
+      "id": "k44mcicc48i6v73sbp704qqsr8",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=azQ0bWNpY2M0OGk2djczc2JwNzA0cXFzcjggeWFzaHRzYW5naHZpQG0",
+      "created": "2025-10-29T23:56:09.000Z",
+      "updated": "2025-10-29T23:56:09.936Z",
+      "summary": "Meeting with raj",
+      "description": "Platform: Meeting",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T15:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T16:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "k44mcicc48i6v73sbp704qqsr8@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3523564488112414\"",
+      "id": "ov4dju0qhflin62fj4optlabns",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=b3Y0ZGp1MHFoZmxpbjYyZmo0b3B0bGFibnMgeWFzaHRzYW5naHZpQG0",
+      "created": "2025-10-29T23:57:23.000Z",
+      "updated": "2025-10-29T23:57:24.056Z",
+      "summary": "Meeting with raj",
+      "description": "Platform: Meeting",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T19:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T19:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "ov4dju0qhflin62fj4optlabns@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3523574403950686\"",
+      "id": "gkrsu2s0diclrru9q30vvie3o8",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Z2tyc3UyczBkaWNscnJ1OXEzMHZ2aWUzbzggeWFzaHRzYW5naHZpQG0",
+      "created": "2025-10-30T01:20:01.000Z",
+      "updated": "2025-10-30T01:20:01.975Z",
+      "summary": "Meeting with Sarah",
+      "description": "Platform: Zoom",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-30T19:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-30T20:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "gkrsu2s0diclrru9q30vvie3o8@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517125064426622\"",
+      "id": "e590f69ee76a4a6c9f73fed6fb6ea4a4_20251031T173000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=ZTU5MGY2OWVlNzZhNGE2YzlmNzNmZWQ2ZmI2ZWE0YTRfMjAyNTEwMzFUMTczMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T16:53:28.000Z",
+      "updated": "2025-09-22T17:35:32.213Z",
+      "summary": "ECEN 21-2 Logic Design",
+      "description": "Rm 310 Alumni Science Hall\n",
+      "location": "3rd Floor Alumni Science Hall",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T13:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T14:35:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "e590f69ee76a4a6c9f73fed6fb6ea4a4",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T13:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "e590f69ee76a4a6c9f73fed6fb6ea4a4@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517193443944382\"",
+      "id": "74a68554c6ec4c64937e3edf1e44632b_20251031T180000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NzRhNjg1NTRjNmVjNGM2NDkzN2UzZWRmMWU0NDYzMmJfMjAyNTEwMzFUMTgwMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T18:52:07.000Z",
+      "updated": "2025-09-23T03:05:21.972Z",
+      "summary": "MATH 13 HW",
+      "colorId": "11",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "74a68554c6ec4c64937e3edf1e44632b",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "74a68554c6ec4c64937e3edf1e44632b@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517120601866238\"",
+      "id": "2b1f631bc7cf42d2882f01801da5a6f6_20251031T184500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MmIxZjYzMWJjN2NmNDJkMjg4MmYwMTgwMWRhNWE2ZjZfMjAyNTEwMzFUMTg0NTAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T16:55:22.000Z",
+      "updated": "2025-09-22T16:58:20.933Z",
+      "summary": "MATH 13-3 Calculus 3",
+      "description": "Rm 205 O'Connor Hall\n",
+      "location": "2nd Floor O'Connor Hall",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T14:45:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T15:50:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "2b1f631bc7cf42d2882f01801da5a6f6",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T14:45:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "2b1f631bc7cf42d2882f01801da5a6f6@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517125064426622\"",
+      "id": "e590f69ee76a4a6c9f73fed6fb6ea4a4_20251031T173000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=ZTU5MGY2OWVlNzZhNGE2YzlmNzNmZWQ2ZmI2ZWE0YTRfMjAyNTEwMzFUMTczMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T16:53:28.000Z",
+      "updated": "2025-09-22T17:35:32.213Z",
+      "summary": "ECEN 21-2 Logic Design",
+      "description": "Rm 310 Alumni Science Hall\n",
+      "location": "3rd Floor Alumni Science Hall",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T13:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T14:35:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "e590f69ee76a4a6c9f73fed6fb6ea4a4",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T13:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "e590f69ee76a4a6c9f73fed6fb6ea4a4@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517193443944382\"",
+      "id": "74a68554c6ec4c64937e3edf1e44632b_20251031T180000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NzRhNjg1NTRjNmVjNGM2NDkzN2UzZWRmMWU0NDYzMmJfMjAyNTEwMzFUMTgwMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T18:52:07.000Z",
+      "updated": "2025-09-23T03:05:21.972Z",
+      "summary": "MATH 13 HW",
+      "colorId": "11",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "74a68554c6ec4c64937e3edf1e44632b",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "74a68554c6ec4c64937e3edf1e44632b@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517120601866238\"",
+      "id": "2b1f631bc7cf42d2882f01801da5a6f6_20251031T184500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MmIxZjYzMWJjN2NmNDJkMjg4MmYwMTgwMWRhNWE2ZjZfMjAyNTEwMzFUMTg0NTAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T16:55:22.000Z",
+      "updated": "2025-09-22T16:58:20.933Z",
+      "summary": "MATH 13-3 Calculus 3",
+      "description": "Rm 205 O'Connor Hall\n",
+      "location": "2nd Floor O'Connor Hall",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T14:45:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T15:50:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "2b1f631bc7cf42d2882f01801da5a6f6",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T14:45:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "2b1f631bc7cf42d2882f01801da5a6f6@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517125064426622\"",
+      "id": "e590f69ee76a4a6c9f73fed6fb6ea4a4_20251031T173000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=ZTU5MGY2OWVlNzZhNGE2YzlmNzNmZWQ2ZmI2ZWE0YTRfMjAyNTEwMzFUMTczMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T16:53:28.000Z",
+      "updated": "2025-09-22T17:35:32.213Z",
+      "summary": "ECEN 21-2 Logic Design",
+      "description": "Rm 310 Alumni Science Hall\n",
+      "location": "3rd Floor Alumni Science Hall",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T13:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T14:35:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "e590f69ee76a4a6c9f73fed6fb6ea4a4",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T13:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "e590f69ee76a4a6c9f73fed6fb6ea4a4@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517193443944382\"",
+      "id": "74a68554c6ec4c64937e3edf1e44632b_20251031T180000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NzRhNjg1NTRjNmVjNGM2NDkzN2UzZWRmMWU0NDYzMmJfMjAyNTEwMzFUMTgwMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T18:52:07.000Z",
+      "updated": "2025-09-23T03:05:21.972Z",
+      "summary": "MATH 13 HW",
+      "colorId": "11",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "74a68554c6ec4c64937e3edf1e44632b",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "74a68554c6ec4c64937e3edf1e44632b@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517120601866238\"",
+      "id": "2b1f631bc7cf42d2882f01801da5a6f6_20251031T184500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MmIxZjYzMWJjN2NmNDJkMjg4MmYwMTgwMWRhNWE2ZjZfMjAyNTEwMzFUMTg0NTAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T16:55:22.000Z",
+      "updated": "2025-09-22T16:58:20.933Z",
+      "summary": "MATH 13-3 Calculus 3",
+      "description": "Rm 205 O'Connor Hall\n",
+      "location": "2nd Floor O'Connor Hall",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T14:45:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T15:50:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "2b1f631bc7cf42d2882f01801da5a6f6",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T14:45:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "2b1f631bc7cf42d2882f01801da5a6f6@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517125064426622\"",
+      "id": "e590f69ee76a4a6c9f73fed6fb6ea4a4_20251031T173000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=ZTU5MGY2OWVlNzZhNGE2YzlmNzNmZWQ2ZmI2ZWE0YTRfMjAyNTEwMzFUMTczMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T16:53:28.000Z",
+      "updated": "2025-09-22T17:35:32.213Z",
+      "summary": "ECEN 21-2 Logic Design",
+      "description": "Rm 310 Alumni Science Hall\n",
+      "location": "3rd Floor Alumni Science Hall",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T13:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T14:35:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "e590f69ee76a4a6c9f73fed6fb6ea4a4",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T13:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "e590f69ee76a4a6c9f73fed6fb6ea4a4@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517193443944382\"",
+      "id": "74a68554c6ec4c64937e3edf1e44632b_20251031T180000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NzRhNjg1NTRjNmVjNGM2NDkzN2UzZWRmMWU0NDYzMmJfMjAyNTEwMzFUMTgwMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T18:52:07.000Z",
+      "updated": "2025-09-23T03:05:21.972Z",
+      "summary": "MATH 13 HW",
+      "colorId": "11",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "74a68554c6ec4c64937e3edf1e44632b",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "74a68554c6ec4c64937e3edf1e44632b@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517120601866238\"",
+      "id": "2b1f631bc7cf42d2882f01801da5a6f6_20251031T184500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MmIxZjYzMWJjN2NmNDJkMjg4MmYwMTgwMWRhNWE2ZjZfMjAyNTEwMzFUMTg0NTAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T16:55:22.000Z",
+      "updated": "2025-09-22T16:58:20.933Z",
+      "summary": "MATH 13-3 Calculus 3",
+      "description": "Rm 205 O'Connor Hall\n",
+      "location": "2nd Floor O'Connor Hall",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T14:45:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T15:50:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "2b1f631bc7cf42d2882f01801da5a6f6",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T14:45:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "2b1f631bc7cf42d2882f01801da5a6f6@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3523698157595230\"",
+      "id": "b19v9lf2id9tkr9nfa145saub0",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=YjE5djlsZjJpZDl0a3I5bmZhMTQ1c2F1YjAgeWFzaHRzYW5naHZpQG0",
+      "created": "2025-10-30T18:31:18.000Z",
+      "updated": "2025-10-30T18:31:18.797Z",
+      "summary": "Meeting with Sarah",
+      "description": "Platform: Meeting",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T19:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T19:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "b19v9lf2id9tkr9nfa145saub0@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517125064426622\"",
+      "id": "e590f69ee76a4a6c9f73fed6fb6ea4a4_20251031T173000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=ZTU5MGY2OWVlNzZhNGE2YzlmNzNmZWQ2ZmI2ZWE0YTRfMjAyNTEwMzFUMTczMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T16:53:28.000Z",
+      "updated": "2025-09-22T17:35:32.213Z",
+      "summary": "ECEN 21-2 Logic Design",
+      "description": "Rm 310 Alumni Science Hall\n",
+      "location": "3rd Floor Alumni Science Hall",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T13:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T14:35:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "e590f69ee76a4a6c9f73fed6fb6ea4a4",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T13:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "e590f69ee76a4a6c9f73fed6fb6ea4a4@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517193443944382\"",
+      "id": "74a68554c6ec4c64937e3edf1e44632b_20251031T180000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NzRhNjg1NTRjNmVjNGM2NDkzN2UzZWRmMWU0NDYzMmJfMjAyNTEwMzFUMTgwMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T18:52:07.000Z",
+      "updated": "2025-09-23T03:05:21.972Z",
+      "summary": "MATH 13 HW",
+      "colorId": "11",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "74a68554c6ec4c64937e3edf1e44632b",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "74a68554c6ec4c64937e3edf1e44632b@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517120601866238\"",
+      "id": "2b1f631bc7cf42d2882f01801da5a6f6_20251031T184500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MmIxZjYzMWJjN2NmNDJkMjg4MmYwMTgwMWRhNWE2ZjZfMjAyNTEwMzFUMTg0NTAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T16:55:22.000Z",
+      "updated": "2025-09-22T16:58:20.933Z",
+      "summary": "MATH 13-3 Calculus 3",
+      "description": "Rm 205 O'Connor Hall\n",
+      "location": "2nd Floor O'Connor Hall",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T14:45:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T15:50:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "2b1f631bc7cf42d2882f01801da5a6f6",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T14:45:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "2b1f631bc7cf42d2882f01801da5a6f6@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3523698157595230\"",
+      "id": "b19v9lf2id9tkr9nfa145saub0",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=YjE5djlsZjJpZDl0a3I5bmZhMTQ1c2F1YjAgeWFzaHRzYW5naHZpQG0",
+      "created": "2025-10-30T18:31:18.000Z",
+      "updated": "2025-10-30T18:31:18.797Z",
+      "summary": "Meeting with Sarah",
+      "description": "Platform: Meeting",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T19:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T19:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "b19v9lf2id9tkr9nfa145saub0@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517125064426622\"",
+      "id": "e590f69ee76a4a6c9f73fed6fb6ea4a4_20251031T173000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=ZTU5MGY2OWVlNzZhNGE2YzlmNzNmZWQ2ZmI2ZWE0YTRfMjAyNTEwMzFUMTczMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T16:53:28.000Z",
+      "updated": "2025-09-22T17:35:32.213Z",
+      "summary": "ECEN 21-2 Logic Design",
+      "description": "Rm 310 Alumni Science Hall\n",
+      "location": "3rd Floor Alumni Science Hall",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T13:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T14:35:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "e590f69ee76a4a6c9f73fed6fb6ea4a4",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T13:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "e590f69ee76a4a6c9f73fed6fb6ea4a4@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517193443944382\"",
+      "id": "74a68554c6ec4c64937e3edf1e44632b_20251031T180000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NzRhNjg1NTRjNmVjNGM2NDkzN2UzZWRmMWU0NDYzMmJfMjAyNTEwMzFUMTgwMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T18:52:07.000Z",
+      "updated": "2025-09-23T03:05:21.972Z",
+      "summary": "MATH 13 HW",
+      "colorId": "11",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "74a68554c6ec4c64937e3edf1e44632b",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "74a68554c6ec4c64937e3edf1e44632b@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517120601866238\"",
+      "id": "2b1f631bc7cf42d2882f01801da5a6f6_20251031T184500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MmIxZjYzMWJjN2NmNDJkMjg4MmYwMTgwMWRhNWE2ZjZfMjAyNTEwMzFUMTg0NTAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T16:55:22.000Z",
+      "updated": "2025-09-22T16:58:20.933Z",
+      "summary": "MATH 13-3 Calculus 3",
+      "description": "Rm 205 O'Connor Hall\n",
+      "location": "2nd Floor O'Connor Hall",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T14:45:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T15:50:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "2b1f631bc7cf42d2882f01801da5a6f6",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T14:45:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "2b1f631bc7cf42d2882f01801da5a6f6@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3523698528063774\"",
+      "id": "9eu5eio79e9juns8biastfv7rc",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=OWV1NWVpbzc5ZTlqdW5zOGJpYXN0ZnY3cmMgeWFzaHRzYW5naHZpQG0",
+      "created": "2025-10-30T18:34:23.000Z",
+      "updated": "2025-10-30T18:34:24.031Z",
+      "summary": "Meeting with raj",
+      "description": "Platform: Meeting",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T15:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T16:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "9eu5eio79e9juns8biastfv7rc@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3523698157595230\"",
+      "id": "b19v9lf2id9tkr9nfa145saub0",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=YjE5djlsZjJpZDl0a3I5bmZhMTQ1c2F1YjAgeWFzaHRzYW5naHZpQG0",
+      "created": "2025-10-30T18:31:18.000Z",
+      "updated": "2025-10-30T18:31:18.797Z",
+      "summary": "Meeting with Sarah",
+      "description": "Platform: Meeting",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T19:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T19:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "b19v9lf2id9tkr9nfa145saub0@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517125064426622\"",
+      "id": "e590f69ee76a4a6c9f73fed6fb6ea4a4_20251031T173000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=ZTU5MGY2OWVlNzZhNGE2YzlmNzNmZWQ2ZmI2ZWE0YTRfMjAyNTEwMzFUMTczMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T16:53:28.000Z",
+      "updated": "2025-09-22T17:35:32.213Z",
+      "summary": "ECEN 21-2 Logic Design",
+      "description": "Rm 310 Alumni Science Hall\n",
+      "location": "3rd Floor Alumni Science Hall",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T13:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T14:35:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "e590f69ee76a4a6c9f73fed6fb6ea4a4",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T13:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "e590f69ee76a4a6c9f73fed6fb6ea4a4@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517193443944382\"",
+      "id": "74a68554c6ec4c64937e3edf1e44632b_20251031T180000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NzRhNjg1NTRjNmVjNGM2NDkzN2UzZWRmMWU0NDYzMmJfMjAyNTEwMzFUMTgwMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T18:52:07.000Z",
+      "updated": "2025-09-23T03:05:21.972Z",
+      "summary": "MATH 13 HW",
+      "colorId": "11",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "74a68554c6ec4c64937e3edf1e44632b",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "74a68554c6ec4c64937e3edf1e44632b@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517120601866238\"",
+      "id": "2b1f631bc7cf42d2882f01801da5a6f6_20251031T184500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MmIxZjYzMWJjN2NmNDJkMjg4MmYwMTgwMWRhNWE2ZjZfMjAyNTEwMzFUMTg0NTAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T16:55:22.000Z",
+      "updated": "2025-09-22T16:58:20.933Z",
+      "summary": "MATH 13-3 Calculus 3",
+      "description": "Rm 205 O'Connor Hall\n",
+      "location": "2nd Floor O'Connor Hall",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T14:45:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T15:50:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "2b1f631bc7cf42d2882f01801da5a6f6",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T14:45:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "2b1f631bc7cf42d2882f01801da5a6f6@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517125064426622\"",
+      "id": "e590f69ee76a4a6c9f73fed6fb6ea4a4_20251031T173000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=ZTU5MGY2OWVlNzZhNGE2YzlmNzNmZWQ2ZmI2ZWE0YTRfMjAyNTEwMzFUMTczMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T16:53:28.000Z",
+      "updated": "2025-09-22T17:35:32.213Z",
+      "summary": "ECEN 21-2 Logic Design",
+      "description": "Rm 310 Alumni Science Hall\n",
+      "location": "3rd Floor Alumni Science Hall",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T13:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T14:35:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "e590f69ee76a4a6c9f73fed6fb6ea4a4",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T13:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "e590f69ee76a4a6c9f73fed6fb6ea4a4@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517193443944382\"",
+      "id": "74a68554c6ec4c64937e3edf1e44632b_20251031T180000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NzRhNjg1NTRjNmVjNGM2NDkzN2UzZWRmMWU0NDYzMmJfMjAyNTEwMzFUMTgwMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T18:52:07.000Z",
+      "updated": "2025-09-23T03:05:21.972Z",
+      "summary": "MATH 13 HW",
+      "colorId": "11",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "74a68554c6ec4c64937e3edf1e44632b",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "74a68554c6ec4c64937e3edf1e44632b@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517120601866238\"",
+      "id": "2b1f631bc7cf42d2882f01801da5a6f6_20251031T184500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MmIxZjYzMWJjN2NmNDJkMjg4MmYwMTgwMWRhNWE2ZjZfMjAyNTEwMzFUMTg0NTAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T16:55:22.000Z",
+      "updated": "2025-09-22T16:58:20.933Z",
+      "summary": "MATH 13-3 Calculus 3",
+      "description": "Rm 205 O'Connor Hall\n",
+      "location": "2nd Floor O'Connor Hall",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T14:45:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T15:50:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "2b1f631bc7cf42d2882f01801da5a6f6",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T14:45:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "2b1f631bc7cf42d2882f01801da5a6f6@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517125064426622\"",
+      "id": "e590f69ee76a4a6c9f73fed6fb6ea4a4_20251031T173000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=ZTU5MGY2OWVlNzZhNGE2YzlmNzNmZWQ2ZmI2ZWE0YTRfMjAyNTEwMzFUMTczMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T16:53:28.000Z",
+      "updated": "2025-09-22T17:35:32.213Z",
+      "summary": "ECEN 21-2 Logic Design",
+      "description": "Rm 310 Alumni Science Hall\n",
+      "location": "3rd Floor Alumni Science Hall",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T13:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T14:35:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "e590f69ee76a4a6c9f73fed6fb6ea4a4",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T13:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "e590f69ee76a4a6c9f73fed6fb6ea4a4@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517193443944382\"",
+      "id": "74a68554c6ec4c64937e3edf1e44632b_20251031T180000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NzRhNjg1NTRjNmVjNGM2NDkzN2UzZWRmMWU0NDYzMmJfMjAyNTEwMzFUMTgwMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T18:52:07.000Z",
+      "updated": "2025-09-23T03:05:21.972Z",
+      "summary": "MATH 13 HW",
+      "colorId": "11",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "74a68554c6ec4c64937e3edf1e44632b",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "74a68554c6ec4c64937e3edf1e44632b@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517120601866238\"",
+      "id": "2b1f631bc7cf42d2882f01801da5a6f6_20251031T184500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MmIxZjYzMWJjN2NmNDJkMjg4MmYwMTgwMWRhNWE2ZjZfMjAyNTEwMzFUMTg0NTAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T16:55:22.000Z",
+      "updated": "2025-09-22T16:58:20.933Z",
+      "summary": "MATH 13-3 Calculus 3",
+      "description": "Rm 205 O'Connor Hall\n",
+      "location": "2nd Floor O'Connor Hall",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T14:45:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T15:50:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "2b1f631bc7cf42d2882f01801da5a6f6",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T14:45:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "2b1f631bc7cf42d2882f01801da5a6f6@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517125064426622\"",
+      "id": "e590f69ee76a4a6c9f73fed6fb6ea4a4_20251031T173000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=ZTU5MGY2OWVlNzZhNGE2YzlmNzNmZWQ2ZmI2ZWE0YTRfMjAyNTEwMzFUMTczMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T16:53:28.000Z",
+      "updated": "2025-09-22T17:35:32.213Z",
+      "summary": "ECEN 21-2 Logic Design",
+      "description": "Rm 310 Alumni Science Hall\n",
+      "location": "3rd Floor Alumni Science Hall",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T13:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T14:35:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "e590f69ee76a4a6c9f73fed6fb6ea4a4",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T13:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "e590f69ee76a4a6c9f73fed6fb6ea4a4@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517193443944382\"",
+      "id": "74a68554c6ec4c64937e3edf1e44632b_20251031T180000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NzRhNjg1NTRjNmVjNGM2NDkzN2UzZWRmMWU0NDYzMmJfMjAyNTEwMzFUMTgwMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T18:52:07.000Z",
+      "updated": "2025-09-23T03:05:21.972Z",
+      "summary": "MATH 13 HW",
+      "colorId": "11",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "74a68554c6ec4c64937e3edf1e44632b",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "74a68554c6ec4c64937e3edf1e44632b@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517120601866238\"",
+      "id": "2b1f631bc7cf42d2882f01801da5a6f6_20251031T184500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MmIxZjYzMWJjN2NmNDJkMjg4MmYwMTgwMWRhNWE2ZjZfMjAyNTEwMzFUMTg0NTAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T16:55:22.000Z",
+      "updated": "2025-09-22T16:58:20.933Z",
+      "summary": "MATH 13-3 Calculus 3",
+      "description": "Rm 205 O'Connor Hall\n",
+      "location": "2nd Floor O'Connor Hall",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T14:45:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T15:50:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "2b1f631bc7cf42d2882f01801da5a6f6",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T14:45:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "2b1f631bc7cf42d2882f01801da5a6f6@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517125064426622\"",
+      "id": "e590f69ee76a4a6c9f73fed6fb6ea4a4_20251031T173000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=ZTU5MGY2OWVlNzZhNGE2YzlmNzNmZWQ2ZmI2ZWE0YTRfMjAyNTEwMzFUMTczMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T16:53:28.000Z",
+      "updated": "2025-09-22T17:35:32.213Z",
+      "summary": "ECEN 21-2 Logic Design",
+      "description": "Rm 310 Alumni Science Hall\n",
+      "location": "3rd Floor Alumni Science Hall",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T13:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T14:35:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "e590f69ee76a4a6c9f73fed6fb6ea4a4",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T13:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "e590f69ee76a4a6c9f73fed6fb6ea4a4@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517193443944382\"",
+      "id": "74a68554c6ec4c64937e3edf1e44632b_20251031T180000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NzRhNjg1NTRjNmVjNGM2NDkzN2UzZWRmMWU0NDYzMmJfMjAyNTEwMzFUMTgwMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T18:52:07.000Z",
+      "updated": "2025-09-23T03:05:21.972Z",
+      "summary": "MATH 13 HW",
+      "colorId": "11",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "74a68554c6ec4c64937e3edf1e44632b",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "74a68554c6ec4c64937e3edf1e44632b@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517120601866238\"",
+      "id": "2b1f631bc7cf42d2882f01801da5a6f6_20251031T184500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MmIxZjYzMWJjN2NmNDJkMjg4MmYwMTgwMWRhNWE2ZjZfMjAyNTEwMzFUMTg0NTAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T16:55:22.000Z",
+      "updated": "2025-09-22T16:58:20.933Z",
+      "summary": "MATH 13-3 Calculus 3",
+      "description": "Rm 205 O'Connor Hall\n",
+      "location": "2nd Floor O'Connor Hall",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T14:45:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T15:50:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "2b1f631bc7cf42d2882f01801da5a6f6",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T14:45:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "2b1f631bc7cf42d2882f01801da5a6f6@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517125064426622\"",
+      "id": "e590f69ee76a4a6c9f73fed6fb6ea4a4_20251031T173000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=ZTU5MGY2OWVlNzZhNGE2YzlmNzNmZWQ2ZmI2ZWE0YTRfMjAyNTEwMzFUMTczMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T16:53:28.000Z",
+      "updated": "2025-09-22T17:35:32.213Z",
+      "summary": "ECEN 21-2 Logic Design",
+      "description": "Rm 310 Alumni Science Hall\n",
+      "location": "3rd Floor Alumni Science Hall",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T13:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T14:35:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "e590f69ee76a4a6c9f73fed6fb6ea4a4",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T13:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "e590f69ee76a4a6c9f73fed6fb6ea4a4@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517193443944382\"",
+      "id": "74a68554c6ec4c64937e3edf1e44632b_20251031T180000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=NzRhNjg1NTRjNmVjNGM2NDkzN2UzZWRmMWU0NDYzMmJfMjAyNTEwMzFUMTgwMDAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T18:52:07.000Z",
+      "updated": "2025-09-23T03:05:21.972Z",
+      "summary": "MATH 13 HW",
+      "colorId": "11",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "74a68554c6ec4c64937e3edf1e44632b",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T14:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "74a68554c6ec4c64937e3edf1e44632b@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3517120601866238\"",
+      "id": "2b1f631bc7cf42d2882f01801da5a6f6_20251031T184500Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MmIxZjYzMWJjN2NmNDJkMjg4MmYwMTgwMWRhNWE2ZjZfMjAyNTEwMzFUMTg0NTAwWiB5YXNodHNhbmdodmlAbQ",
+      "created": "2025-09-22T16:55:22.000Z",
+      "updated": "2025-09-22T16:58:20.933Z",
+      "summary": "MATH 13-3 Calculus 3",
+      "description": "Rm 205 O'Connor Hall\n",
+      "location": "2nd Floor O'Connor Hall",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T14:45:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T15:50:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "recurringEventId": "2b1f631bc7cf42d2882f01801da5a6f6",
+      "originalStartTime": {
+        "dateTime": "2025-10-31T14:45:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "2b1f631bc7cf42d2882f01801da5a6f6@google.com",
+      "sequence": 1,
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"3523729765095934\"",
+      "id": "1ck8id1dk0uj8u83le96ef3sns",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=MWNrOGlkMWRrMHVqOHU4M2xlOTZlZjNzbnMgeWFzaHRzYW5naHZpQG0",
+      "created": "2025-10-30T22:54:42.000Z",
+      "updated": "2025-10-30T22:54:42.547Z",
+      "summary": "Meeting with raj",
+      "description": "Platform: Meeting",
+      "creator": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "organizer": {
+        "email": "yashtsanghvi@gmail.com",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2025-10-31T15:00:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "end": {
+        "dateTime": "2025-10-31T15:30:00-04:00",
+        "timeZone": "America/Los_Angeles"
+      },
+      "iCalUID": "1ck8id1dk0uj8u83le96ef3sns@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      },
+      "eventType": "default"
+    }
+  ]
+}
