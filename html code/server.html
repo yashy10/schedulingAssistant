@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LangGraph Workflow - Scheduling Assistant</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 1.1em;
+        }
+
+        .graph-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 40px 0;
+            padding: 30px;
+            background: #f8f9fa;
+            border-radius: 15px;
+        }
+
+        .node {
+            background: white;
+            border: 3px solid #667eea;
+            border-radius: 15px;
+            padding: 20px 30px;
+            margin: 15px;
+            min-width: 200px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .node:hover {
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: 0 8px 15px rgba(102, 126, 234, 0.3);
+            border-color: #764ba2;
+        }
+
+        .node.start {
+            background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
+            border-color: #84fab0;
+            font-weight: bold;
+        }
+
+        .node.end {
+            background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+            border-color: #fa709a;
+            font-weight: bold;
+        }
+
+        .node.classifier { border-color: #667eea; background: #e8ecff; }
+        .node.clarify { border-color: #f093fb; background: #fff5fc; }
+        .node.route { border-color: #4facfe; background: #e8f7ff; }
+        .node.tools { border-color: #43e97b; background: #efffef; }
+        .node.cancel { border-color: #fa709a; background: #fff0f5; }
+        .node.output { border-color: #feca57; background: #fffef0; }
+
+        .node-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        .node-desc {
+            font-size: 0.9em;
+            color: #666;
+            line-height: 1.4;
+        }
+
+        .arrow {
+            font-size: 2em;
+            color: #667eea;
+            margin: 10px 0;
+        }
+
+        .branch-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .branch {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .branch-label {
+            background: #667eea;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin: 10px 0;
+            font-weight: bold;
+        }
+
+        .info-panel {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 5px;
+        }
+
+        .info-panel h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+
+        .info-panel ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .info-panel li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        .info-panel li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        .legend {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin: 30px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .legend-box {
+            width: 30px;
+            height: 30px;
+            border-radius: 5px;
+            border: 2px solid #333;
+        }
+
+        .flow-path {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .flow-path h4 {
+            color: #667eea;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .flow-steps {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .flow-step {
+            background: #e8ecff;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 500;
+        }
+
+        .flow-arrow {
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            .branch-container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🤖 LangGraph Workflow Visualization</h1>
+        <p class="subtitle">Autonomous Digital Executive Assistant - Scheduling System</p>
+
+        <div class="graph-container">
+            <!-- START -->
+            <div class="node start">
+                <div class="node-title">🚀 START</div>
+                <div class="node-desc">User makes request</div>
+            </div>
+
+            <div class="arrow">↓</div>
+
+            <!-- CLASSIFIER -->
+            <div class="node classifier">
+                <div class="node-title">🎯 CLASSIFIER</div>
+                <div class="node-desc">Analyzes intent, extracts parameters<br>Uses GPT-4o-mini + Chat Memory</div>
+            </div>
+
+            <div class="arrow">↓</div>
+
+            <!-- BRANCHING -->
+            <div class="branch-container">
+                <!-- Branch 1: Clarify -->
+                <div class="branch">
+                    <div class="branch-label">Missing Info?</div>
+                    <div class="arrow">↓</div>
+                    <div class="node clarify">
+                        <div class="node-title">💬 CLARIFY</div>
+                        <div class="node-desc">Asks for missing details<br>Voice/Text support</div>
+                    </div>
+                    <div class="arrow">↓</div>
+                    <div class="node-desc" style="color: #666; font-size: 0.9em;">
+                        ← Loops back to CLASSIFIER
+                    </div>
+                </div>
+
+                <!-- Branch 2: Route -->
+                <div class="branch">
+                    <div class="branch-label">Has All Info?</div>
+                    <div class="arrow">↓</div>
+                    <div class="node route">
+                        <div class="node-title">🔀 ROUTE</div>
+                        <div class="node-desc">Directs to appropriate handler<br>Based on intent</div>
+                    </div>
+                    <div class="arrow">↓</div>
+                </div>
+            </div>
+
+            <!-- TOOLS -->
+            <div class="node tools">
+                <div class="node-title">🔧 TOOLS</div>
+                <div class="node-desc">
+                    Executes calendar operations:<br>
+                    • Find slots (conflict detection)<br>
+                    • Create meetings (sync Google)<br>
+                    • List meetings (both sources)<br>
+                    • Can loop up to 5 times
+                </div>
+            </div>
+
+            <div class="arrow">↓</div>
+
+            <!-- BRANCHING 2 -->
+            <div class="branch-container">
+                <!-- Branch 1: Loop -->
+                <div class="branch">
+                    <div class="branch-label">Need More?</div>
+                    <div class="arrow">↓</div>
+                    <div class="node-desc" style="color: #666; font-size: 0.9em; max-width: 150px; text-align: center;">
+                        ← Loops back to TOOLS<br>(max 5 times)
+                    </div>
+                </div>
+
+                <!-- Branch 2: Cancel -->
+                <div class="branch">
+                    <div class="branch-label">Cancel?</div>
+                    <div class="arrow">↓</div>
+                    <div class="node cancel">
+                        <div class="node-title">🗑️ CANCEL</div>
+                        <div class="node-desc">Deletes meeting<br>Syncs Google Calendar</div>
+                    </div>
+                    <div class="arrow">↓</div>
+                </div>
+
+                <!-- Branch 3: Continue -->
+                <div class="branch">
+                    <div class="branch-label">Ready?</div>
+                    <div class="arrow">↓</div>
+                </div>
+            </div>
+
+            <!-- OUTPUT -->
+            <div class="node output">
+                <div class="node-title">📤 OUTPUT</div>
+                <div class="node-desc">
+                    Formats response, speaks (voice mode)<br>
+                    Saves to chat memory, adds conflict warnings
+                </div>
+            </div>
+
+            <div class="arrow">↓</div>
+
+            <!-- END -->
+            <div class="node end">
+                <div class="node-title">🏁 END</div>
+                <div class="node-desc">Workflow complete</div>
+            </div>
+        </div>
+
+        <!-- Legend -->
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-box" style="background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);"></div>
+                <span>Start/Entry</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-box" style="background: #e8ecff; border-color: #667eea;"></div>
+                <span>Processing</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-box" style="background: #efffef; border-color: #43e97b;"></div>
+                <span>Operations</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-box" style="background: #fff0f5; border-color: #fa709a;"></div>
+                <span>Special Action</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-box" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);"></div>
+                <span>End/Exit</span>
+            </div>
+        </div>
+
+        <!-- Example Flows -->
+        <h2 style="margin: 40px 0 20px 0; color: #333;">📋 Example Flow Paths</h2>
+
+        <div class="flow-path">
+            <h4>🎯 Path 1: Simple Meeting Scheduling</h4>
+            <div class="flow-steps">
+                <span class="flow-step">START</span>
+                <span class="flow-arrow">→</span>
+                <span class="flow-step">CLASSIFIER</span>
+                <span class="flow-arrow">→</span>
+                <span class="flow-step">ROUTE</span>
+                <span class="flow-arrow">→</span>
+                <span class="flow-step">TOOLS (find slots)</span>
+                <span class="flow-arrow">→</span>
+                <span class="flow-step">TOOLS (create)</span>
+                <span class="flow-arrow">→</span>
+                <span class="flow-step">OUTPUT</span>
+                <span class="flow-arrow">→</span>
+                <span class="flow-step">END</span>
+            </div>
+        </div>
+
+        <div class="flow-path">
+            <h4>💬 Path 2: Missing Information</h4>
+            <div class="flow-steps">
+                <span class="flow-step">START</span>
+                <span class="flow-arrow">→</span>
+                <span class="flow-step">CLASSIFIER</span>
+                <span class="flow-arrow">→</span>
+                <span class="flow-step">CLARIFY</span>
+                <span class="flow-arrow">→</span>
+                <span class="flow-step">CLASSIFIER</span>
+                <span class="flow-arrow">→</span>
+                <span class="flow-step">ROUTE</span>
+                <span class="flow-arrow">→</span>
+                <span class="flow-step">TOOLS</span>
+                <span class="flow-arrow">→</span>
+                <span class="flow-step">OUTPUT</span>
+                <span class="flow-arrow">→</span>
+                <span class="flow-step">END</span>
+            </div>
+        </div>
+
+        <div class="flow-path">
+            <h4>📅 Path 3: List Meetings</h4>
+            <div class="flow-steps">
+                <span class="flow-step">START</span>
+                <span class="flow-arrow">→</span>
+                <span class="flow-step">CLASSIFIER</span>
+                <span class="flow-arrow">→</span>
+                <span class="flow-step">ROUTE</span>
+                <span class="flow-arrow">→</span>
+                <span class="flow-step">TOOLS (list)</span>
+                <span class="flow-arrow">→</span>
+                <span class="flow-step">OUTPUT</span>
+                <span class="flow-arrow">→</span>
+                <span class="flow-step">END</span>
+            </div>
+        </div>
+
+        <div class="flow-path">
+            <h4>🗑️ Path 4: Cancel Meeting</h4>
+            <div class="flow-steps">
+                <span class="flow-step">START</span>
+                <span class="flow-arrow">→</span>
+                <span class="flow-step">CLASSIFIER</span>
+                <span class="flow-arrow">→</span>
+                <span class="flow-step">ROUTE</span>
+                <span class="flow-arrow">→</span>
+                <span class="flow-step">TOOLS (list)</span>
+                <span class="flow-arrow">→</span>
+                <span class="flow-step">CANCEL</span>
+                <span class="flow-arrow">→</span>
+                <span class="flow-step">OUTPUT</span>
+                <span class="flow-arrow">→</span>
+                <span class="flow-step">END</span>
+            </div>
+        </div>
+
+        <!-- Key Features -->
+        <div class="info-panel">
+            <h3>✨ Key Features</h3>
+            <ul>
+                <li><strong>Conflict Detection:</strong> Every meeting checks for overlaps with existing events</li>
+                <li><strong>Google Calendar Sync:</strong> Two-way sync with duplicate prevention</li>
+                <li><strong>Chat Memory:</strong> Remembers context and preferences across conversations</li>
+                <li><strong>Voice Support:</strong> Optional voice input/output via speech recognition</li>
+                <li><strong>Smart Retry:</strong> Loops up to 5 times for complex operations</li>
+                <li><strong>Multi-Source:</strong> Combines local storage and Google Calendar seamlessly</li>
+            </ul>
+        </div>
+
+        <!-- Node Details -->
+        <div class="info-panel">
+            <h3>🔍 Node Responsibilities</h3>
+            <ul>
+                <li><strong>CLASSIFIER:</strong> Uses GPT-4o-mini to understand intent and extract meeting parameters</li>
+                <li><strong>CLARIFY:</strong> Interactive dialogue to gather missing information with voice/text</li>
+                <li><strong>ROUTE:</strong> Maps classified intent to appropriate tool actions</li>
+                <li><strong>TOOLS:</strong> Main executor - finds slots, creates meetings, lists events, handles operations</li>
+                <li><strong>CANCEL:</strong> Specialized handler for meeting deletions with sync</li>
+                <li><strong>OUTPUT:</strong> Formats responses, speaks output, saves to memory, adds warnings</li>
+            </ul>
+        </div>
+
+        <!-- State Management -->
+        <div class="info-panel">
+            <h3>🧠 State Management</h3>
+            <ul>
+                <li>State flows through all nodes carrying user intent, meeting details, and context</li>
+                <li>Contains 20+ fields including: intent, participants, slots, conflicts, messages</li>
+                <li>Loop counter prevents infinite loops (max 5 iterations)</li>
+                <li>Conditional edges use state to determine next node dynamically</li>
+                <li>Memory system persists across sessions for contextual awareness</li>
+            </ul>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; padding: 20px; background: #f8f9fa; border-radius: 10px;">
+            <p style="color: #666; font-size: 0.9em;">
+                💡 <strong>Tip:</strong> Hover over nodes to see them highlight! This visualization shows the complete
+                flow of the Enhanced Scheduling Assistant with all its decision points and loops.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
